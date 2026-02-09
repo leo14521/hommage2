@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/customizing/page": "app/customizing/page.js",
+  "/page": "app/page.js",
+  "/signature/juvegen/page": "app/signature/juvegen/page.js",
+  "/signature/lifting/page": "app/signature/lifting/page.js",
+  "/signature/total-erase/page": "app/signature/total-erase/page.js",
+  "/signature/ulthera/page": "app/signature/ulthera/page.js",
+  "/treatment/labiaplasty/page": "app/treatment/labiaplasty/page.js"
+}

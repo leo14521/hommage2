@@ -1,0 +1,3 @@
+module.exports=[75798,a=>{"use strict";var b=a.i(87924),c=a.i(38246);a.s(["default",0,function({className:a="",href:d="/"}){let e=(0,b.jsx)("img",{src:"/logo-hommage.png",alt:"Hommage Clinic",className:a,width:160,height:38});return d?(0,b.jsx)(c.default,{href:d,className:`inline-block ${a}`,"aria-label":"Hommage Clinic 홈",children:e}):e}])}];
+
+//# sourceMappingURL=src_components_ui_Logo_tsx_dce66ad6._.js.map

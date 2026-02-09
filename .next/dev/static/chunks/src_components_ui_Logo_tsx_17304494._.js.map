@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/volon/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/hommage_w/src/components/ui/Logo.tsx"],"sourcesContent":["\"use client\";\n\nimport Link from \"next/link\";\n\ninterface LogoProps {\n  className?: string;\n  href?: string;\n}\n\n/** Hommage Clinic 로고 이미지 (모노그램 + Hommage Clinic) */\nexport default function Logo({ className = \"\", href = \"/\" }: LogoProps) {\n  const img = (\n    <img\n      src=\"/logo-hommage.png\"\n      alt=\"Hommage Clinic\"\n      className={`${className} w-auto h-auto object-contain`}\n      width={160}\n      height={38}\n    />\n  );\n\n  if (href) {\n    return (\n      <Link href={href} className=\"inline-block\" aria-label=\"Hommage Clinic 홈\">\n        {img}\n      </Link>\n    );\n  }\n  return img;\n}\n"],"names":["Logo","className","href","img","src","alt","width","height"],"mappings":";;;;;AAEA;AAFA;;;AAUe,SAASA,KAAK,EAAEC,YAAY,EAAE,EAAEC,OAAO,GAAG,EAAa;IACpE,MAAMC,oBACJ,6LAAC;QACCC,KAAI;QACJC,KAAI;QACJJ,WAAW,GAAGA,UAAU,6BAA6B,CAAC;QACtDK,OAAO;QACPC,QAAQ;;;;;;IAIZ,IAAIL,MAAM;QACR,qBACE,6LAAC,0KAAI;YAACA,MAAMA;YAAMD,WAAU;YAAe,cAAW;sBACnDE;;;;;;IAGP;IACA,OAAOA;AACT;KAnBwBH"}}]
+}

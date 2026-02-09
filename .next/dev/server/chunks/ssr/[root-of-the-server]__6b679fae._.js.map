@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/volon/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/hommage_w/src/app/signature/lifting/page.tsx"],"sourcesContent":["import LiftingView from \"./LiftingView\";\r\n\r\nexport const metadata = {\r\n  title: \"HOMMAGE | Lifting\",\r\n  description:\r\n    \"고주파, 초음파, 레이저, 실 등을 이용하여 탄력 있는 V라인을 만들기 위한 최적의 리프팅 컴비네이션.\",\r\n};\r\n\r\nexport default function LiftingPage() {\r\n  return <LiftingView />;\r\n}\r\n"],"names":["metadata","title","description","LiftingPage"],"mappings":";;;;;;;AAAA;;;AAEO,MAAMA,WAAW;IACtBC,OAAO;IACPC,aACE;AACJ;AAEe,SAASC;IACtB,qBAAO,8OAAC,6JAAW;;;;;AACrB"}}]
+}
